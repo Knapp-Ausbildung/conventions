@@ -25,6 +25,7 @@ Each coding session only has one push. You should actively commit your changes a
 ### Indentation style
 
 Use the 1TBS (https://en.wikipedia.org/wiki/Indentation_style#Variant:_1TBS_(OTBS)) style.
+C# code is excluded from this convention.
 
 **Bad Example:**
 
