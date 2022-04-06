@@ -153,7 +153,7 @@ class AdventurePlayer {
 
 ### Do not use booleans
 
-Please do not use booleans, instead, use enums.
+Do not use booleans, instead, use enums.
 
 **Bad Example:**
 
@@ -180,7 +180,7 @@ class Guild {
 
 ### Do not use magic numbers
 
-Please do not use magic numbers, instead, create constants. Allowed numbers in code are `-1`, `0` and `1`.
+Do not use magic numbers, instead, create constants. Allowed numbers in code are `-1`, `0` and `1`.
 
 **Bad example:**
 
@@ -216,7 +216,7 @@ if (selectedPrice < MIN_AUCTION_PRICE) {
 
 ### Do not use plaintext in your logical code
 
-Instead of using plaintext, for example use enums or constants.
+Instead of using plaintext, for example use enums or constants. Another good practice would be to use a message providing system.
 
 **Bad example:**
 
