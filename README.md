@@ -113,13 +113,21 @@ Keep the amount of characters per line below `80`.
 
 ## Naming
 
-### At first, follow oracle's java naming conventions
+### For Java:
 
-Please follow oracle's java naming conventions, use *UpperCamelCase* for class names, use *lowercase* for package names, *camelCase* for variables & methods and *UPPERCASE* for constants.
+Follow oracle's java naming conventions, use *UpperCamelCase* for class names, use *lowercase* for package names, *camelCase* for variables & methods and *UPPERCASE* for constants.
+
+### For C#:
+
+Follow Microsoft's conventions: https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+
+### For C++:
+
+...
 
 ### Do not use public fields
 
-Please do not use public fields, instead use getters and setters. Many of our plugins depend on other plugins, when you decide that you dont want to check something when getting a field, you need to add getters and setters, then every plugin using yours needs to be changed.
+Do not use public fields, instead use getters and setters. Many of our plugins depend on other plugins, when you decide that you dont want to check something when getting a field, you need to add getters and setters, then every plugin using yours needs to be changed.
 
 **Bad Example:**
 
