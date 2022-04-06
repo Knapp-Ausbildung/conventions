@@ -128,7 +128,7 @@ Follow Microsoft's conventions: https://docs.microsoft.com/en-us/dotnet/csharp/f
 
 ### Do not use public fields
 
-Do not use public fields, instead use getters and setters. Many of our plugins depend on other plugins, when you decide that you dont want to check something when getting a field, you need to add getters and setters, then every plugin using yours needs to be changed.
+Do not use public fields, instead use getters and setters.
 
 **Bad Example:**
 
