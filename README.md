@@ -18,4 +18,4 @@ For individual access control, there are teams for each year of apprenticeship, 
 
 Each coding session only has one push. You should actively commit your changes and push them at the end of your session. Do not write hundrets of lines of code and commit them only once with the message "added feature X"
 
-> Commit messages are written only in lower case, also starting with an lower case character.
+> Commit messages have to be descriptive and are written only in lower case, also starting with an lower case character.
